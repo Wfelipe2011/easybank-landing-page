@@ -1,12 +1,12 @@
 <template>
   <header
-    class="container mx-auto my-0 flex justify-between items-center py-6 px-4"
+    class="container relative z-10 flex items-center justify-between px-4 py-6 mx-auto my-0 bg-white"
   >
     <nuxt-link to="/">
       <Logo />
     </nuxt-link>
 
-    <ul class="hidden lg:flex gap-8 text-grayish-blue">
+    <ul class="hidden gap-8 lg:flex text-grayish-blue">
       <div>
         <nuxt-link class="tg" to="#home">Home</nuxt-link>
       </div>
@@ -15,11 +15,7 @@
       <nuxt-link class="tg" to="#blog">Blog</nuxt-link>
       <nuxt-link class="tg" to="#careers">Careers</nuxt-link>
     </ul>
-    <button
-      class="hidden lg:block bg-gradient-to-r from-lime-green to-bright-cyan px-10 py-4 rounded-full text-light-grayish-blue font-bold relative right-0"
-    >
-      Request Invite
-    </button>
+    <ButtonReqInvite class="hidden lg:block" />
     <button class="lg:hidden">
       <IconHamburguer />
     </button>
@@ -40,7 +36,7 @@ export default {
   content: '';
   display: block;
   height: 4px;
-  top: 38px;
+  top: 30px;
   @apply w-full relative bg-lime-green rounded-t-full;
 }
 </style>
