@@ -3,7 +3,7 @@
     class="container relative z-10 flex items-center justify-between px-4 py-6 mx-auto my-0 bg-white"
   >
     <nuxt-link to="/">
-      <Logo />
+      <img src="~/assets/images/logo.svg" alt="logo" />
     </nuxt-link>
 
     <ul class="hidden gap-8 lg:flex text-grayish-blue">
@@ -22,11 +22,9 @@
   </header>
 </template>
 <script>
-import Logo from '~/assets/images/logo.svg?inline'
 import IconHamburguer from '~/assets/images/icon-hamburger.svg?inline'
 export default {
   components: {
-    Logo,
     IconHamburguer,
   },
 }
