@@ -1,14 +1,14 @@
 <template>
   <header
-    class="container relative z-10 flex items-center justify-between px-4 py-6 mx-auto my-0 bg-white"
+    class="container relative z-10 flex items-center justify-between px-4 py-6 mx-auto my-0 bg-very-light-gray"
   >
     <nuxt-link to="/">
       <img src="~/assets/images/logo.svg" alt="logo" />
     </nuxt-link>
 
-    <ul class="hidden gap-8 lg:flex text-grayish-blue">
+    <ul class="hidden gap-8 font-semibold lg:flex text-grayish-blue">
       <div>
-        <nuxt-link class="tg" to="#home">Home</nuxt-link>
+        <nuxt-link class="tg" to="/">Home</nuxt-link>
       </div>
       <nuxt-link class="tg" to="#about">About</nuxt-link>
       <nuxt-link class="tg" to="#contact">Contact</nuxt-link>

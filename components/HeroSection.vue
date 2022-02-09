@@ -1,18 +1,18 @@
 <template>
   <section
-    class="flex flex-col-reverse items-center w-full rounded-md sm:mx-auto sm:my-0 lg:flex-row lg:px-4"
+    class="flex flex-col-reverse items-center w-full mb-16 rounded-md xl:container md:mx-auto md:my-0 sm:mx-auto sm:my-0 lg:flex-row"
   >
     <div
-      class="flex flex-col justify-center text-center align-middle lg:text-left"
+      class="flex flex-col justify-center text-center align-middle lg:text-left lg:pl-4"
     >
-      <h1 class="mx-auto my-0 text-5xl text-dark-blue w-96">
+      <h1 class="mx-auto mt-8 text-5xl text-dark-blue w-96">
         Next generation digital banking
       </h1>
-      <p class="mx-auto my-8 text-lg text-grayish-blue w-96">
+      <p class="mx-auto my-4 text-lg text-grayish-blue w-96">
         Take your fubabcual life online. Your Easybank account will be a
         one-stop-shop for spending, saving budgeting, investing, and much more
       </p>
-      <div class="flex justify-center lg:justify-start">
+      <div class="flex justify-center mb-16 lg:justify-start">
         <ButtonReqInvite />
       </div>
     </div>

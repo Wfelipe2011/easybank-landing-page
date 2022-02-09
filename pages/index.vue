@@ -1,9 +1,10 @@
 <template>
-  <div class="h-screen mx-auto my-0">
+  <div class="mx-auto my-0 bg-very-light-gray">
     <HeaderMain />
 
-    <main class="xl:container md:mx-auto md:my-0">
+    <main>
       <HeroSection />
+      <AboutSection />
     </main>
   </div>
 </template>
