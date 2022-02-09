@@ -1,6 +1,6 @@
 <template>
   <section
-    class="flex flex-col items-center justify-center w-full pt-4 pb-8 lg:items-start bg-light-grayish-blue"
+    class="flex flex-col items-center justify-center w-full pt-4 pb-8 lg:items-start bg-base-300"
   >
     <div class="md:p-4 xl:mx-auto xl:my-0 xl:container">
       <div class="mt-16">
@@ -10,7 +10,7 @@
           Why choose Easybank?
         </h2>
         <p
-          class="mx-auto mt-4 mb-8 text-center w-80 text-grayish-blue md:w-6/12 lg:text-left lg:mx-0 lg:w-7/12 lg:pr-24 xl:w-5/12 xl:pr-8"
+          class="mx-auto mt-4 mb-8 text-center w-80 text-base-500 md:w-6/12 lg:text-left lg:mx-0 lg:w-7/12 lg:pr-24 xl:w-5/12 xl:pr-8"
         >
           We leverage Open Banking to turn your bank account into your financial
           hub. Control your finances like never before.

@@ -5,10 +5,10 @@
     <div
       class="flex flex-col justify-center text-center align-middle lg:text-left lg:pl-4"
     >
-      <h1 class="mx-auto mt-8 text-5xl text-dark-blue w-96">
+      <h1 class="mx-auto mt-8 text-5xl text-primary w-96">
         Next generation digital banking
       </h1>
-      <p class="mx-auto my-4 text-lg text-grayish-blue w-96">
+      <p class="mx-auto my-4 text-lg text-base-500 w-96">
         Take your fubabcual life online. Your Easybank account will be a
         one-stop-shop for spending, saving budgeting, investing, and much more
       </p>

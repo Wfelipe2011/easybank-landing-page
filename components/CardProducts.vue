@@ -3,8 +3,8 @@
     class="flex flex-col items-center justify-center mb-8 w-80 2xl:items-start"
   >
     <img :src="require(`~/assets/images/${fileName}.svg`)" />
-    <h2 class="my-4 text-lg font-semibold text-dark-blue">{{ title }}</h2>
-    <p class="w-10/12 text-center text-grayish-blue 2xl:text-left">
+    <h2 class="my-4 text-lg font-semibold text-">{{ title }}</h2>
+    <p class="w-10/12 text-center text-base-500 2xl:text-left">
       {{ textContent }}
     </p>
   </div>

@@ -1,12 +1,12 @@
 <template>
   <header
-    class="container relative z-10 flex items-center justify-between px-4 py-6 mx-auto my-0 bg-very-light-gray"
+    class="container relative z-10 flex items-center justify-between px-4 py-6 mx-auto my-0 bg-base-200"
   >
     <nuxt-link to="/">
       <img src="~/assets/images/logo.svg" alt="logo" />
     </nuxt-link>
 
-    <ul class="hidden gap-8 font-semibold lg:flex text-grayish-blue">
+    <ul class="hidden gap-8 font-semibold lg:flex text-base-500">
       <div>
         <nuxt-link class="tg" to="/">Home</nuxt-link>
       </div>
@@ -35,6 +35,6 @@ export default {
   display: block;
   height: 4px;
   top: 30px;
-  @apply w-full relative bg-lime-green rounded-t-full;
+  @apply w-full relative bg-secondary rounded-t-full;
 }
 </style>
