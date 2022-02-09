@@ -2,8 +2,16 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'base-400': '#bdbec7',
-        'base-500': '#9698A6',
+        base: {
+          400: '#bdbec7',
+          500: '#9698A6',
+        },
+      },
+      width: {
+        192: '48rem',
+      },
+      height: {
+        120: '30rem',
       },
     },
   },

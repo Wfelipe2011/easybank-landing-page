@@ -1,6 +1,6 @@
 <template>
   <header
-    class="container relative z-10 flex items-center justify-between px-4 py-6 mx-auto my-0 bg-base-200"
+    class="container relative z-10 flex items-center justify-between px-4 py-6 mx-auto bg-base-200"
   >
     <nuxt-link to="/">
       <img src="~/assets/images/logo.svg" alt="logo" />

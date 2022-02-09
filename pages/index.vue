@@ -2,6 +2,7 @@
   <main>
     <HeroSection />
     <AboutSection />
+    <LastArticle />
   </main>
 </template>
 
