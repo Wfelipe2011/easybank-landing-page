@@ -1,6 +1,10 @@
 <template>
   <div class="bg-white rounded card w-80 h-120">
-    <img class="h-56" :src="require(`~/assets/images/${fileName}.jpg`)" />
+    <img
+      class="h-56"
+      :src="require(`~/assets/images/${fileName}.jpg`)"
+      :alt="fileName"
+    />
     <div class="card-body">
       <h2 class="text-base-400">by {{ author }}</h2>
       <h2 class="font-normal cursor-pointer card-title hover:text-secondary">
