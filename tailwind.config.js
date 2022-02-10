@@ -2,6 +2,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        overlay: 'rgba(45, 49, 77, 0.5)',
         base: {
           400: '#bdbec7',
           500: '#9698A6',
