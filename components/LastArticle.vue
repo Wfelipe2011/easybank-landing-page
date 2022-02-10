@@ -2,7 +2,6 @@
   <section
     class="container flex flex-col items-center justify-center pt-16 pb-8 mx-auto my-0 overflow-hidden"
   >
-    <!-- items-center justify-center gap-4 pt-8 pb-16 mx-auto md:justify-evenly md:flex-wrap 2xl:justify-between lg:mx-auto lg:my-0" -->
     <div class="xl:w-full">
       <h2
         class="w-64 mx-auto my-0 text-4xl text-center lg:w-full 2xl:text-left"

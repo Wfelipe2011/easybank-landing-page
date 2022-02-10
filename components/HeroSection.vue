@@ -1,6 +1,6 @@
 <template>
   <section
-    class="flex flex-col-reverse items-center w-full mb-16 rounded-md xl:container md:mx-auto md:my-0 sm:mx-auto sm:my-0 lg:flex-row"
+    class="flex flex-col-reverse items-center w-full mb-16 h-2/5 xl:container md:mx-auto md:my-0 sm:mx-auto sm:my-0 lg:flex-row"
   >
     <div
       class="flex flex-col justify-center text-center align-middle lg:text-left lg:pl-4"
@@ -9,7 +9,7 @@
         Next generation digital banking
       </h1>
       <p class="mx-auto my-4 text-lg text-base-500 w-96">
-        Take your fubabcual life online. Your Easybank account will be a
+        Take your financial life online. Your Easybank account will be a
         one-stop-shop for spending, saving budgeting, investing, and much more
       </p>
       <div class="flex justify-center mb-16 lg:justify-start">
